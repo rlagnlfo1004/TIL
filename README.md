@@ -3,7 +3,7 @@
 
 
 
-## Spring
+## 2024-동계 모각소 (2025년 01월 ~ 02월)
 * IoC
   * [의존성 주입 DI 기초](https://github.com/cheese10yun/TIL/blob/master/Spring/IoC/DI-%EA%B8%B0%EC%B4%88.md)
 * AOP
