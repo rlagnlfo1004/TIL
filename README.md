@@ -3,9 +3,8 @@
 
 
 
-## 2024-동계 모각소 (2025년 01월 ~ 02월)
-* IoC
-  * [의존성 주입 DI 기초](https://github.com/cheese10yun/TIL/blob/master/Spring/IoC/DI-%EA%B8%B0%EC%B4%88.md)
-* AOP
-  * [AOP - 용어 정리](https://github.com/cheese10yun/TIL/blob/master/Spring/aop/AOP-basic.md)
-  * [AOP - Proxy](https://github.com/cheese10yun/TIL/blob/master/Spring/aop/AOP-proxiy.md)
+### [2024-동계 모각소 (2025년 01월 ~ 02월)]
+
+## Spring
+-  MVC
+   -  [웹 페이지 제작](https://github.com/rlagnlfo1004/TIL/tree/main/MVC/%EC%9B%B9%20%ED%8E%98%EC%9D%B4%EC%A7%80%20%EB%A7%8C%EB%93%A4%EA%B8%B0)
