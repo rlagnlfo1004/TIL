@@ -5,4 +5,4 @@
 
 ## Spring
 - JPA
-  - [[25.04] Entity Manager란?](https://github.com/rlagnlfo1004/TIL/blob/main/JPA/EntityManger%EB%9E%80%3F.md)
+  - [[25.04] Entity Manager란?](https://github.com/rlagnlfo1004/TIL/blob/main/JPA/EntityManger%EB%9E%80%3F.md)git pull origin main --rebase
