@@ -6,3 +6,8 @@
 ## Spring
 - JPA
   - [[25.04] Entity Manager란?](https://github.com/rlagnlfo1004/TIL/blob/main/JPA/EntityManger%EB%9E%80%3F.md)
+
+<br></br><br></br>
+## Algorithm
+- 정렬
+  - [[25.04] 수 정렬하기_백준 2750]()
