@@ -5,8 +5,21 @@
 
 ## Spring
 - JPA
-  - [[25.04] Entity Manager란?](https://github.com/rlagnlfo1004/TIL/blob/main/JPA/EntityManger%EB%9E%80%3F.md)
-
+  - [[25.04.03] Entity Manager란?](https://github.com/rlagnlfo1004/TIL/blob/main/JPA/EntityManger%EB%9E%80%3F.md)
+  
+<br></br>
 ## Algorithm
 - 정렬
-  - [[25.04] 수 정렬하기_백준 2750](https://github.com/rlagnlfo1004/TIL/blob/main/Algorithm/%EC%88%98%20%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0_%EB%B0%B1%EC%A4%80%202750.md)
+  - [[25.04.04] 수 정렬하기_백준 2750]()
+  
+- 구간 합
+  - [[25.04.06] 구간 합_백준 11659, 11660]()
+  - [[25.04.06] 나머지 합_백준 10986]()
+
+
+- 기타
+  - [[25.04.07] 문서 검색_백준 1543]()
+
+
+
+<!-- - [[25.00.00] 0000_백준 000]() -->
