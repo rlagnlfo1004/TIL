@@ -30,7 +30,7 @@
 ## ⚡️ Presigned URL 동작방식
 
 
-[![출처 : https://ipekogosu.tistory.com/59]([[attachment:13dc636d-6182-4ef1-b135-8d398436dfd8:image.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbNW3bx%2FbtsJbsyARHf%2FdaPorrahKn7KtT9JktswlK%2Fimg.png)](https://www.notion.so/image/attachment%3A13dc636d-6182-4ef1-b135-8d398436dfd8%3Aimage.png?table=block&id=1d1a76ff-c9a1-80b8-918c-cdc6fc31552a&spaceId=37875086-0463-4536-bf7b-76a3045c93e9&width=1510&userId=86276022-5496-4e5f-ba0e-6d27cf0a31ca&cache=v2))](https://www.notion.so/image/attachment%3A13dc636d-6182-4ef1-b135-8d398436dfd8%3Aimage.png?table=block&id=1d1a76ff-c9a1-80b8-918c-cdc6fc31552a&spaceId=37875086-0463-4536-bf7b-76a3045c93e9&width=1510&userId=86276022-5496-4e5f-ba0e-6d27cf0a31ca&cache=v2)
+![Image](https://github.com/user-attachments/assets/7d44d936-2847-474e-b134-59d0af5c93b7)
 
 출처 : https://ipekogosu.tistory.com/59
 
@@ -198,7 +198,7 @@ public class AmazonS3Config {
 사실 이부분이 핵심이라 생각한다. AWS S3는 파일을 **폴더 없이 Key 값**으로 관리하기 때문에, 업로드한 **파일의 S3 경로를 데이터베이스에 저장**해야 검색 및 조회가 가능하다. 즉 파일이 어디에 저장되었는지 추적 가능하다는 것이다. 해당 서비스는 **Post, Notice 등 데이터와 연결 가능** 파일이 어떤 게시물(게시글, 공지사항)에 속하는지 식별 가능하도록 하기 위한 구현이다. Pre-signed URL은 일시적이므로, 실제 **S3 저장 위치를 유지할 필요**가 있으며, 파일 삭제시에도 데이터베이스에 기록된 경로를 통해 S3에서 삭제 요청을 보낼 수 있다.
 
 
-[![image.png]([attachment:25c80a82-934f-44de-9dcf-4ae6153be745:image.png](https://www.notion.so/image/attachment%3Aaa144a10-b425-4227-8e30-866332684eca%3Aimage.png?table=block&id=1bba76ff-c9a1-802e-8865-d76548d02a04&spaceId=37875086-0463-4536-bf7b-76a3045c93e9&width=2000&userId=86276022-5496-4e5f-ba0e-6d27cf0a31ca&cache=v2))](https://www.notion.so/image/attachment%3A25c80a82-934f-44de-9dcf-4ae6153be745%3Aimage.png?table=block&id=1d1a76ff-c9a1-80d1-b8f2-f6920106bf72&spaceId=37875086-0463-4536-bf7b-76a3045c93e9&width=1510&userId=86276022-5496-4e5f-ba0e-6d27cf0a31ca&cache=v2)
+![Image](https://github.com/user-attachments/assets/35fb6088-cc61-4a1d-9a2d-c8d17821a4d8)
 
 S3는 폴더 개념이 없고, 객체 키(Object Key) 기반으로 파일을 관리한다. 하지만, 논리적인 폴더 구조를 만들어서 관리하는 것이 일반적이다. 따라서, Post와 Notice는 구분하여 저장하는 것이 유지보수에 유리하다.
 
