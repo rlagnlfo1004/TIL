@@ -4,9 +4,9 @@
 
 
 
-![출처 : [https://velog.io/@jmjmjmz732002/Spring-Boot-서버리스-기반-S3-Presigned-URL-적용하기#aws-s3-presigned-url](https://velog.velcdn.com/images/jmjmjmz732002/post/f2e57165-6fae-429e-842e-0ae973ca6781/image.png)](attachment:6487e67b-b316-497b-befb-e91685ce0ccc:image.png)
+![출처 : https://mangkyu.tistory.com/18](https://velog.velcdn.com/images/jmjmjmz732002/post/f2e57165-6fae-429e-842e-0ae973ca6781/image.png)
 
-출처 : [https://velog.io/@jmjmjmz732002/Spring-Boot-서버리스-기반-S3-Presigned-URL-적용하기#aws-s3-presigned-url](https://velog.io/@jmjmjmz732002/Spring-Boot-%EC%84%9C%EB%B2%84%EB%A6%AC%EC%8A%A4-%EA%B8%B0%EB%B0%98-S3-Presigned-URL-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0#aws-s3-presigned-url)
+출처 : https://mangkyu.tistory.com/18
 
 1. 사용자가 파일을 어플리케이션 서버에 업로드한다.
 
@@ -30,7 +30,7 @@
 ## ⚡️ Presigned URL 동작방식
 
 
-![출처 : https://ipekogosu.tistory.com/59]([attachment:13dc636d-6182-4ef1-b135-8d398436dfd8:image.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbNW3bx%2FbtsJbsyARHf%2FdaPorrahKn7KtT9JktswlK%2Fimg.png))
+[![출처 : https://ipekogosu.tistory.com/59]([[attachment:13dc636d-6182-4ef1-b135-8d398436dfd8:image.png](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbNW3bx%2FbtsJbsyARHf%2FdaPorrahKn7KtT9JktswlK%2Fimg.png)](https://www.notion.so/image/attachment%3A13dc636d-6182-4ef1-b135-8d398436dfd8%3Aimage.png?table=block&id=1d1a76ff-c9a1-80b8-918c-cdc6fc31552a&spaceId=37875086-0463-4536-bf7b-76a3045c93e9&width=1510&userId=86276022-5496-4e5f-ba0e-6d27cf0a31ca&cache=v2))](https://www.notion.so/image/attachment%3A13dc636d-6182-4ef1-b135-8d398436dfd8%3Aimage.png?table=block&id=1d1a76ff-c9a1-80b8-918c-cdc6fc31552a&spaceId=37875086-0463-4536-bf7b-76a3045c93e9&width=1510&userId=86276022-5496-4e5f-ba0e-6d27cf0a31ca&cache=v2)
 
 출처 : https://ipekogosu.tistory.com/59
 
@@ -51,7 +51,7 @@ Presigned URL을 사용하는 로직은 다음과 같다.
 
 클라이언트가 파일을 올리기 위한 URL을 발급 요청한다.
 
-```json
+```
 POST /api/files/presigned-urls
 Content-Type: application/json
 
@@ -80,21 +80,21 @@ AWS는 파일을 올릴 때 사용할 수 있는 URL을 발급해준다. 이때,
 
 클라이언트는 각 파일을 해당 Presigned URL에 PUT 요청으로 파일을 보내어 업로드 한다. 위의 각각의 주소에 Http 메서드는 PUT이며, Header에 content-type만 파일 타입으로 지정하고, Body에 binary type으로 파일 업로드하면 된다.
 
-```json
+```
 PUT https://mybucket.s3.ap-northeast-2.amazonaws.com/uploads/image1.jpg?...
 Content-Type: image/jpeg
 
 [image1.jpg 파일의 바이너리 데이터]
 ```
 
-```json
+```
 PUT https://mybucket.s3.ap-northeast-2.amazonaws.com/docs/report.pdf?...
 Content-Type: application/pdf
 
 [report.pdf 파일의 바이너리 데이터]
 ```
 
-```json
+```
 PUT https://mybucket.s3.ap-northeast-2.amazonaws.com/user/profile.png?...
 Content-Type: image/png
 
@@ -105,7 +105,7 @@ Content-Type: image/png
 
 S3의 **Pre-signed URL**에는 여러 개의 **쿼리 파라미터**가 포함돼 있는데, 이들은 S3에 요청을 보낼 때 AWS 인증과 관련된 정보를 포함해줘야 하기 때문에 붙는 것들이다. 아래의 예시를 통해 자세히 알아보자.
 
-```json
+```
 https://example-bucket.s3.amazonaws.com/images/2d098b12-5cd7-4f00-835b-a6c998a13617%EB%B8%94%EB%A1%9C%EA%B7%B8%20%EC%8D%B8%EB%84%A4%EC%9D%BC.png
 ?x-amz-acl=public-read
 &X-Amz-Algorithm=AWS4-HMAC-SHA256
@@ -198,7 +198,7 @@ public class AmazonS3Config {
 사실 이부분이 핵심이라 생각한다. AWS S3는 파일을 **폴더 없이 Key 값**으로 관리하기 때문에, 업로드한 **파일의 S3 경로를 데이터베이스에 저장**해야 검색 및 조회가 가능하다. 즉 파일이 어디에 저장되었는지 추적 가능하다는 것이다. 해당 서비스는 **Post, Notice 등 데이터와 연결 가능** 파일이 어떤 게시물(게시글, 공지사항)에 속하는지 식별 가능하도록 하기 위한 구현이다. Pre-signed URL은 일시적이므로, 실제 **S3 저장 위치를 유지할 필요**가 있으며, 파일 삭제시에도 데이터베이스에 기록된 경로를 통해 S3에서 삭제 요청을 보낼 수 있다.
 
 
-![image.png]([attachment:25c80a82-934f-44de-9dcf-4ae6153be745:image.png](https://www.notion.so/image/attachment%3Aaa144a10-b425-4227-8e30-866332684eca%3Aimage.png?table=block&id=1bba76ff-c9a1-802e-8865-d76548d02a04&spaceId=37875086-0463-4536-bf7b-76a3045c93e9&width=2000&userId=86276022-5496-4e5f-ba0e-6d27cf0a31ca&cache=v2))
+[![image.png]([attachment:25c80a82-934f-44de-9dcf-4ae6153be745:image.png](https://www.notion.so/image/attachment%3Aaa144a10-b425-4227-8e30-866332684eca%3Aimage.png?table=block&id=1bba76ff-c9a1-802e-8865-d76548d02a04&spaceId=37875086-0463-4536-bf7b-76a3045c93e9&width=2000&userId=86276022-5496-4e5f-ba0e-6d27cf0a31ca&cache=v2))](https://www.notion.so/image/attachment%3A25c80a82-934f-44de-9dcf-4ae6153be745%3Aimage.png?table=block&id=1d1a76ff-c9a1-80d1-b8f2-f6920106bf72&spaceId=37875086-0463-4536-bf7b-76a3045c93e9&width=1510&userId=86276022-5496-4e5f-ba0e-6d27cf0a31ca&cache=v2)
 
 S3는 폴더 개념이 없고, 객체 키(Object Key) 기반으로 파일을 관리한다. 하지만, 논리적인 폴더 구조를 만들어서 관리하는 것이 일반적이다. 따라서, Post와 Notice는 구분하여 저장하는 것이 유지보수에 유리하다.
 

@@ -6,7 +6,7 @@
 ## BE
 - Spring
   - [[25.04.10] Dispatcher Servlet 이란?](https://github.com/rlagnlfo1004/TIL/blob/main/Spring/Dispatcher%20Servlet%20%EC%9D%B4%EB%9E%80%3F.md)
-  - [[25.04.11] Spring Boot에서 Presigned URL로 AWS S3에 파일 업로드하기](https://github.com/rlagnlfo1004/TIL/blob/main/Spring/Dispatcher%20Servlet%20%EC%9D%B4%EB%9E%80%3F.md)
+  - [[25.04.11] Spring Boot에서 Presigned URL로 AWS S3에 파일 업로드하기](https://github.com/rlagnlfo1004/TIL/blob/main/Spring/Spring%20Boot%EC%97%90%EC%84%9C%20Presigned%20URL%EB%A1%9C%20AWS%20S3%EC%97%90%20%ED%8C%8C%EC%9D%BC%20%EC%97%85%EB%A1%9C%EB%93%9C%ED%95%98%EA%B8%B0.md)
 - JPA
   - [[25.04.03] Entity Manager란?](https://github.com/rlagnlfo1004/TIL/blob/main/JPA/EntityManger%EB%9E%80%3F.md)
 
