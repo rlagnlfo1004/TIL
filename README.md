@@ -17,7 +17,7 @@
   
 
 - 자료구조
-  - [[25.04.13] 투 포인터_백준 2018, 1940, 1253](https://github.com/rlagnlfo1004/TIL/blob/main/Algorithm/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%ED%88%AC%20%ED%8F%AC%EC%9D%B8%ED%84%B0.md)
+  - [[25.04.13] 투 포인터_백준 2018, 1940, 1253](https://github.com/rlagnlfo1004/TIL/blob/main/Algorithm/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%ED%88%AC%20%ED%8F%AC%EC%9D%B8%ED%84%B0_%EB%B0%B1%EC%A4%80%202018%2C%201940%2C%201253.md)
   - [[25.04.07] 문서 검색_백준 1543](https://github.com/rlagnlfo1004/TIL/blob/main/Algorithm/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%EB%AC%B8%EC%84%9C%20%EA%B2%80%EC%83%89_%EB%B0%B1%EC%A4%80%201543.md)
   
   - 구간 합
