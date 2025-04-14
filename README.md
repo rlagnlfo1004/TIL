@@ -15,9 +15,11 @@
 - 정렬
   - [[25.04.04] 수 정렬하기_백준 2750](https://github.com/rlagnlfo1004/TIL/blob/main/Algorithm/%EC%A0%95%EB%A0%AC/%EC%88%98%20%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0_%EB%B0%B1%EC%A4%80%202750.md)
   
+
 - 자료구조
-  - [[25.04.13] 투 포인터](https://github.com/rlagnlfo1004/TIL/blob/main/Algorithm/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%ED%88%AC%20%ED%8F%AC%EC%9D%B8%ED%84%B0.md)
+  - [[25.04.13] 투 포인터_백준 2018, 1940, 1253](https://github.com/rlagnlfo1004/TIL/blob/main/Algorithm/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%ED%88%AC%20%ED%8F%AC%EC%9D%B8%ED%84%B0.md)
   - [[25.04.07] 문서 검색_백준 1543](https://github.com/rlagnlfo1004/TIL/blob/main/Algorithm/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%EB%AC%B8%EC%84%9C%20%EA%B2%80%EC%83%89_%EB%B0%B1%EC%A4%80%201543.md)
+  
   - 구간 합
     - [[25.04.06] 구간 합_백준 11659, 11660](https://github.com/rlagnlfo1004/TIL/blob/main/Algorithm/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%EA%B5%AC%EA%B0%84%20%ED%95%A9/%EA%B5%AC%EA%B0%84%20%ED%95%A9_%EB%B0%B1%EC%A4%80%2011659%2C%2011660.md)
     - [[25.04.06] 나머지 합_백준 10986](https://github.com/rlagnlfo1004/TIL/blob/main/Algorithm/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/%EA%B5%AC%EA%B0%84%20%ED%95%A9/%EB%82%98%EB%A8%B8%EC%A7%80%20%ED%95%A9_%EB%B0%B1%EC%A4%80%2010986.md)
