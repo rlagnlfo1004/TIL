@@ -1,5 +1,10 @@
 # Today I Learned(TIL) Wiki
-<img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=Git&logoColor=white" /> <img src="https://img.shields.io/badge/Github-181717?style=flat&logo=Github&logoColor=white" /> <img src="https://img.shields.io/badge/Java-007396?style=flat&logo=OpenJDK&logoColor=white"/> <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat&logo=Spring&logoColor=white" /> <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat&logo=Spring Boot&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /> 
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" /> 
+<img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/> 
+<img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" /> 
+<img src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />
+<img src ="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
 
 
 
@@ -11,7 +16,6 @@
 ## JPA
   - [[25.05.12] JPA Delete와 영속성](https://github.com/rlagnlfo1004/TIL/blob/main/JPA/JPA%20Delete%EC%99%80%20%EC%98%81%EC%86%8D%EC%84%B1.md)
   - [[25.04.03] Entity Manager란?](https://github.com/rlagnlfo1004/TIL/blob/main/JPA/EntityManger%EB%9E%80%3F.md)
-
 <br></br>
 ## Algorithm
 - 정렬
