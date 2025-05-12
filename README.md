@@ -9,6 +9,7 @@
 - [[25.04.11] Presigned URL로 S3에 파일 업로드하기](https://github.com/rlagnlfo1004/TIL/blob/main/Spring/Presigned%20URL%EB%A1%9C%20S3%EC%97%90%20%ED%8C%8C%EC%9D%BC%20%EC%97%85%EB%A1%9C%EB%93%9C%ED%95%98%EA%B8%B0.md)
 <br></br>
 ## JPA
+  - [[25.05.12] JPA Delete와 영속성](https://github.com/rlagnlfo1004/TIL/blob/main/JPA/JPA%20Delete%EC%99%80%20%EC%98%81%EC%86%8D%EC%84%B1.md)
   - [[25.04.03] Entity Manager란?](https://github.com/rlagnlfo1004/TIL/blob/main/JPA/EntityManger%EB%9E%80%3F.md)
 
 <br></br>
