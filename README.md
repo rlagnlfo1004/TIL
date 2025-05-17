@@ -12,6 +12,9 @@
   - [[25.05.12] JPA Delete와 영속성](https://github.com/rlagnlfo1004/TIL/blob/main/JPA/JPA%20Delete%EC%99%80%20%EC%98%81%EC%86%8D%EC%84%B1.md)
   - [[25.04.03] Entity Manager란?](https://github.com/rlagnlfo1004/TIL/blob/main/JPA/EntityManger%EB%9E%80%3F.md)
 <br></br>
+## AWS
+  - [[25.05.18] EC2 인스턴스 파해치기](https://github.com/rlagnlfo1004/TIL/blob/main/AWS/EC2%20%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%20%ED%8C%8C%ED%95%B4%EC%B9%98%EA%B8%B0.md)
+<br></br>
 ## Algorithm
 - 정렬
   - [[25.04.04] 수 정렬하기_백준 2750](https://github.com/rlagnlfo1004/TIL/blob/main/Algorithm/%EC%A0%95%EB%A0%AC/%EC%88%98%20%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0_%EB%B0%B1%EC%A4%80%202750.md)
