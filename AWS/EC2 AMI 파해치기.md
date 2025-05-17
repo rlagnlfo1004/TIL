@@ -58,4 +58,4 @@ AWS Marketplace 카탈로그에는 잘 알려진 판매자가 선별한 오픈 �
 
 [[AWS] 📚 AMI / Snapshot 개념 & 백업 사용법 💯 정리](https://inpa.tistory.com/entry/AWS-%F0%9F%93%9A-AMI-Snapshot-%EA%B0%9C%EB%85%90-%EB%B0%B1%EC%97%85-%EC%82%AC%EC%9A%A9%EB%B2%95-%F0%9F%92%AF-%EC%A0%95%EB%A6%AC?category=947442)
 
-[의 AMI 기반 제품 AWS Marketplace - AWS Marketplace](https://docs.aws.amazon.com/ko_kr/marketplace/latest/buyerguide/buyer-server-products.html)
+[AWS Marketplace의 AMI 기반 제품](https://docs.aws.amazon.com/ko_kr/marketplace/latest/buyerguide/buyer-server-products.html)
