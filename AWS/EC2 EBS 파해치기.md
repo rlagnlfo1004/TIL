@@ -62,8 +62,17 @@ EBS에도 용량에 따라 성능과 가격이 차이나느데, 다음과 같이
 <br></br>
 **각 하드의 성능은 용량과 MAX IOPS 수치**를 보면 된다. IOPS 수치가 높을수록 데이터 통신이 빠르다. 따라서, 프로비전된 IOPS이 가장 빠르고 좋으며, 일반적으로는 범용타입인 GP3을 선택한다. 만약 요금을 아끼겠다 하면 마그네틱을 사용하면 된다.
 <br></br><br></br>
+## 🔍 Snapshot
+
+
+스냅샷(Snapshot)은 **EBS를 저장하는 효율적인 방법**으로서, **특정 시간에 EBS 볼륨 상태의 저장본**을 의미한다. EBS의 데이터 저장 상태에 대해 사진(백업본)을 찍어둔 개념이다. 따라서 필요시 스냅샷을 통해 **특정시간의 저장 데이터에 대한 EBS의 복구가 가능**하다.
+
+스냅샷의 가장 큰 특징은 **Git과 같이, 증분식 저장(변화한 부분만 저장)** 한다는 것이다. Git의 스냅샷 원리를 스토리지에 그대로 차용한 것이다. 이를 통해 보다 효율적인 방식으로, 저장용량 공간 전체를 각 시간대 마다 할당하는 것이 아닌, **추가된 데이터(변화된 부분)의 크기(용량)만 스냅샷**을 하여 저장함으로서, 전체적인 용량을 아낄 수 있는 것이다. 이 스냅샷 파일들은 보통 S3(파일 저장소)에 보관된다.
+<br></br><br></br>
 ## 📚 참고
 
 [[AWS] 📚 EC2 개념 원리 & 사용 세팅 💯 총정리 (Instance / EBS / AMI)](https://inpa.tistory.com/entry/AWS-%F0%9F%93%9A-EC2-%EA%B0%9C%EB%85%90-%EC%82%AC%EC%9A%A9-%EA%B5%AC%EC%B6%95-%EC%84%B8%ED%8C%85-%F0%9F%92%AF-%EC%A0%95%EB%A6%AC-%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4-EBS-AMI)
 
 [[AWS] 📚 EC2 개념 원리 & 사용 세팅 💯 총정리 (Instance / EBS / AMI)](https://inpa.tistory.com/entry/AWS-%F0%9F%93%9A-EC2-%EA%B0%9C%EB%85%90-%EC%82%AC%EC%9A%A9-%EA%B5%AC%EC%B6%95-%EC%84%B8%ED%8C%85-%F0%9F%92%AF-%EC%A0%95%EB%A6%AC-%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4-EBS-AMI)
+
+[[AWS] 📚 AMI / Snapshot 개념 & 백업 사용법 💯 정리](https://inpa.tistory.com/entry/AWS-%F0%9F%93%9A-AMI-Snapshot-%EA%B0%9C%EB%85%90-%EB%B0%B1%EC%97%85-%EC%82%AC%EC%9A%A9%EB%B2%95-%F0%9F%92%AF-%EC%A0%95%EB%A6%AC?category=947442)
