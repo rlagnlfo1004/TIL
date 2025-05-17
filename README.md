@@ -15,6 +15,7 @@
 <br></br>
 
 ## AWS
+- [[25.05.18] EC2 EBS 파해치기](https://github.com/rlagnlfo1004/TIL/blob/main/AWS/EC2%20EBS%20%ED%8C%8C%ED%95%B4%EC%B9%98%EA%B8%B0.md)
 - [[25.05.18] EC2 인스턴스 파해치기](https://github.com/rlagnlfo1004/TIL/blob/main/AWS/EC2%20%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%20%ED%8C%8C%ED%95%B4%EC%B9%98%EA%B8%B0.md)
 <br></br>
 
