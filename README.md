@@ -14,6 +14,10 @@
 - [[25.04.03] Entity Manager란?](https://github.com/rlagnlfo1004/TIL/blob/main/JPA/EntityManger%EB%9E%80%3F.md)
 <br></br>
 
+## Cloud
+- [[25.06.23] Compute 부분 백로그 정리](https://github.com/rlagnlfo1004/TIL/blob/main/CLOUD/Compute%20%EB%B6%80%EB%B6%84%20%EB%B0%B1%EB%A1%9C%EA%B7%B8%20%EC%A0%95%EB%A6%AC.md)
+<br></br>
+
 ## AWS
 - [[25.05.18] EC2 AMI 파해치기](https://github.com/rlagnlfo1004/TIL/blob/main/AWS/EC2%20AMI%20%ED%8C%8C%ED%95%B4%EC%B9%98%EA%B8%B0.md)
 - [[25.05.18] EC2 EBS 파해치기](https://github.com/rlagnlfo1004/TIL/blob/main/AWS/EC2%20EBS%20%ED%8C%8C%ED%95%B4%EC%B9%98%EA%B8%B0.md)
