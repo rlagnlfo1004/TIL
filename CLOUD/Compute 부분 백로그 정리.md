@@ -79,3 +79,45 @@
     - Nova 상태 Polling 후 상태가 바뀌면 → WebSocket으로 프론트에 상태 전송
     
 3. 권한 검증 (Developer 이상)
+<br></br><br></br>
+## Story COMPUTE-004: 키페어 관리
+
+
+- 사용자가 인스턴스를 SSH로 접속할 수 있도록 **KeyPair 생성/삭제/조회** 지원
+- 새 키페어를 생성할 경우 **프라이빗 키를 다운로드**할 수 있어야 함
+
+1. 키페어 생성 (Nova에서 생성)
+    - Nova API: `POST /os-keypairs`
+    - 응답에 `private_key` 포함됨 (단 한 번만 제공)
+    - 생성 후, `private_key`를 사용자에게 다운로드하도록 제공 (`.pem`파일)
+    - 키페어 메타데이터 관리 (생성된 키 이름, 생성 시간, userId 등을 DB에 저장)
+    - `private_key`는 한 번만 보여줘야 하며 DB에 저장하지 않음
+
+2. 공개키 직접 업로드 (임포트)
+    - Nova API: `POST /os-keypairs`
+    - Nova는 업로드만 수행, 프라이빗 키는 생성하지 않음
+
+3. 키페어 목록 조회
+    - Nova API: `GET /os-keypairs`
+
+4. 키페어 삭제
+    - Nova API: `DELETE /os-keypairs/{key_name}`
+<br></br><br></br>
+## Story COMPUTE-005: 인스턴스 상세 정보 및 모니터링
+
+
+1. 인스턴스 상세 정보 조회
+    - Nova API: `GET` `/v2.1/{project_id}/servers/{server_id}`
+    - 포함 항목:
+        - 이름, UUID
+        - Flavor (CPU/RAM)
+        - 이미지 정보
+        - 상태 (`status`, `power_state`)
+        - IP 주소 (`addresses`)
+        - 네트워크 이름 및 포트 ID
+        - 볼륨 연결 정보 (`block_device_mapping` → Cinder API 필요)
+
+2. 콘솔 로그 조회
+    - Nova API: `GET` `/v2.1/{project_id}/servers/{server_id}/console-output`
+
+3. 기본 메트릭스 (CPU, 메모리 사용률)
