@@ -4,6 +4,7 @@
 
 ## Agile
 - [[25.06.25] User Story](https://github.com/rlagnlfo1004/TIL/blob/main/Agile/User%20Story.md)
+- [[25.06.25] MVP, MMP](https://github.com/rlagnlfo1004/TIL/blob/main/Agile/MVP%2C%20MMP.md)
 <br></br>
 
 ## Spring
