@@ -2,6 +2,9 @@
 <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /> <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" /> <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/> <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" /> <img src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" /> <img src ="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
 <br></br>
 
+## Agile
+- [[25.06.25] User Story](https://github.com/rlagnlfo1004/TIL/blob/main/Agile/User%20Story.md)
+<br></br>
 
 ## Spring
 - [[25.05.06] Web 내 알림 기능 구현](https://github.com/rlagnlfo1004/TIL/blob/main/Spring/%EC%95%8C%EB%A6%BC%EA%B8%B0%EB%8A%A5%20%EA%B5%AC%ED%98%84.md)
