@@ -2,6 +2,10 @@
 <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /> <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" /> <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/> <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" /> <img src="https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" /> <img src ="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
 <br></br>
 
+## Airflow
+- [[25.07.15] DAG 생성(bash operator)](https://github.com/rlagnlfo1004/TIL/blob/main/Airflow/DAG%20%EC%83%9D%EC%84%B1(bash%20operator).md)
+<br></br>
+
 ## Agile
 - [[25.06.25] User Story](https://github.com/rlagnlfo1004/TIL/blob/main/Agile/User%20Story.md)
 - [[25.06.25] MVP, MMP](https://github.com/rlagnlfo1004/TIL/blob/main/Agile/MVP%2C%20MMP.md)
