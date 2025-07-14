@@ -3,8 +3,9 @@
 <br></br>
 
 ## Airflow
-- [[25.07.15] DAG 생성(bash operator)](https://github.com/rlagnlfo1004/TIL/blob/main/Airflow/DAG%20%EC%83%9D%EC%84%B1(bash%20operator).md)
 - [[25.07.15] Cron 스케줄](https://github.com/rlagnlfo1004/TIL/blob/main/Airflow/Cron%20%EC%8A%A4%EC%BC%80%EC%A4%84.md)
+- [[25.07.15] DAG 생성(bash operator)](https://github.com/rlagnlfo1004/TIL/blob/main/Airflow/DAG%20%EC%83%9D%EC%84%B1(bash%20operator).md)
+- [[25.07.14] Airflow 개발환경 구성](https://github.com/rlagnlfo1004/TIL/blob/main/Airflow/Airflow%20%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD%20%EA%B5%AC%EC%84%B1.md)
 <br></br>
 
 ## Agile
