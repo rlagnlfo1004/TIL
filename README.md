@@ -9,7 +9,7 @@
 <br></br>
 
 ## CS
-- [[25.07.23] MPP(Massively Parallel Processing)](https://github.com/rlagnlfo1004/TIL/blob/main/Python/python_2.md)
+- [[25.07.23] MPP(Massively Parallel Processing)](https://github.com/rlagnlfo1004/TIL/blob/main/CS/MPP(Massively%20Parallel%20Processing).md)
 <br></br>
 
 ## Python
