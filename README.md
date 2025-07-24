@@ -8,6 +8,11 @@
 - [[25.07.14] Airflow 개발환경 구성](https://github.com/rlagnlfo1004/TIL/blob/main/Airflow/Airflow%20%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD%20%EA%B5%AC%EC%84%B1.md)
 <br></br>
 
+## Python
+- [[25.07.25] python #2](https://github.com/rlagnlfo1004/TIL/blob/main/Python/python_2.md)
+- [[25.07.24] python #1](https://github.com/rlagnlfo1004/TIL/blob/main/Python/python_1.md)
+<br></br>
+
 ## Agile
 - [[25.06.25] User Story](https://github.com/rlagnlfo1004/TIL/blob/main/Agile/User%20Story.md)
 - [[25.06.25] MVP, MMP](https://github.com/rlagnlfo1004/TIL/blob/main/Agile/MVP%2C%20MMP.md)
@@ -32,6 +37,12 @@
 - [[25.05.18] EC2 AMI 파해치기](https://github.com/rlagnlfo1004/TIL/blob/main/AWS/EC2%20AMI%20%ED%8C%8C%ED%95%B4%EC%B9%98%EA%B8%B0.md)
 - [[25.05.18] EC2 EBS 파해치기](https://github.com/rlagnlfo1004/TIL/blob/main/AWS/EC2%20EBS%20%ED%8C%8C%ED%95%B4%EC%B9%98%EA%B8%B0.md)
 - [[25.05.18] EC2 인스턴스 파해치기](https://github.com/rlagnlfo1004/TIL/blob/main/AWS/EC2%20%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%20%ED%8C%8C%ED%95%B4%EC%B9%98%EA%B8%B0.md)
+<br></br>
+
+## 개발 서적
+- 빅데이터를 지탱하는 기술 - 니시다 케이스케
+  - [[25.07.22] 2장 빅데이터의 탐색](https://github.com/rlagnlfo1004/TIL/blob/main/%EC%84%9C%EC%A0%81/%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A5%BC%20%EC%A7%80%ED%83%B1%ED%95%98%EB%8A%94%20%EA%B8%B0%EC%88%A0%20-%20%EB%8B%88%EC%8B%9C%EB%8B%A4%20%EC%BC%80%EC%9D%B4%EC%8A%A4%EC%BC%80/2%EC%9E%A5%20%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%9D%98%20%ED%83%90%EC%83%89.md)
+  - [[25.07.20] 1장 빅데이터의 기초 지식](https://github.com/rlagnlfo1004/TIL/blob/main/%EC%84%9C%EC%A0%81/%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A5%BC%20%EC%A7%80%ED%83%B1%ED%95%98%EB%8A%94%20%EA%B8%B0%EC%88%A0%20-%20%EB%8B%88%EC%8B%9C%EB%8B%A4%20%EC%BC%80%EC%9D%B4%EC%8A%A4%EC%BC%80/1%EC%9E%A5%20%EB%B9%85%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%9D%98%20%EA%B8%B0%EC%B4%88%20%EC%A7%80%EC%8B%9D.md)
 <br></br>
 
 ## Algorithm
