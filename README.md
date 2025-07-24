@@ -8,6 +8,10 @@
 - [[25.07.14] Airflow 개발환경 구성](https://github.com/rlagnlfo1004/TIL/blob/main/Airflow/Airflow%20%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD%20%EA%B5%AC%EC%84%B1.md)
 <br></br>
 
+## CS
+- [[25.07.23] MPP(Massively Parallel Processing)](https://github.com/rlagnlfo1004/TIL/blob/main/Python/python_2.md)
+<br></br>
+
 ## Python
 - [[25.07.25] python #2](https://github.com/rlagnlfo1004/TIL/blob/main/Python/python_2.md)
 - [[25.07.24] python #1](https://github.com/rlagnlfo1004/TIL/blob/main/Python/python_1.md)
