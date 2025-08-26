@@ -46,6 +46,7 @@
 
 ## 개발 서적
 - 대규모 시스템 설계 기초 1
+  - [[25.08.26] 10장 알림 시스템 설계](https://github.com/rlagnlfo1004/TIL/blob/main/%EC%84%9C%EC%A0%81/%EB%8C%80%EA%B7%9C%EB%AA%A8%20%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EC%84%A4%EA%B3%84%20%EA%B8%B0%EC%B4%88%201/10%EC%9E%A5%20%EC%95%8C%EB%A6%BC%20%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EC%84%A4%EA%B3%84.md)
   - [[25.08.19] 7장 분산 시스템을 위한 유일 ID 생성기 설계](https://github.com/rlagnlfo1004/TIL/blob/main/%EC%84%9C%EC%A0%81/%EB%8C%80%EA%B7%9C%EB%AA%A8%20%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EC%84%A4%EA%B3%84%20%EA%B8%B0%EC%B4%88%201/7%EC%9E%A5%20%EB%B6%84%EC%82%B0%20%EC%8B%9C%EC%8A%A4%ED%85%9C%EC%9D%84%20%EC%9C%84%ED%95%9C%20%EC%9C%A0%EC%9D%BC%20ID%20%EC%83%9D%EC%84%B1%EA%B8%B0%20%EC%84%A4%EA%B3%84.md)
   - [[25.08.13] 1장 사용자 수에 따른 규모 확장성](https://github.com/rlagnlfo1004/TIL/blob/main/%EC%84%9C%EC%A0%81/%EB%8C%80%EA%B7%9C%EB%AA%A8%20%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EC%84%A4%EA%B3%84%20%EA%B8%B0%EC%B4%88%201/1%EC%9E%A5%20%EC%82%AC%EC%9A%A9%EC%9E%90%20%EC%88%98%EC%97%90%20%EB%94%B0%EB%A5%B8%20%EA%B7%9C%EB%AA%A8%20%ED%99%95%EC%9E%A5%EC%84%B1.md)
 - 빅데이터를 지탱하는 기술 - 니시다 케이스케
